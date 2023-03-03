@@ -16,5 +16,15 @@ namespace TP_MOD2_1302213121_DEDE
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "Hallo "+textBox1.Text;
+        }
     }
 }
